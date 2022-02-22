@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>THE MENU OF FIVE GUYS</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/icons.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+    <form>
+        <header class="header">
+            <h1 class="header__title">FOOD100</h1>
+            <p class="header__descr">FAST FOOD 100 уровня</p>
+            <div class="header__timer">
+                <span class="header__timer-extra">0</span> LVL
+            </div>
+            <!-- 
+                 ДЗ
+                 При помощи рекурсии сделать анимированный логотип. Цифры от 0 до 100. При этом когда цифра больше 50 скороть изменения становится меньше 
+            -->
+
+        </header>
+        <div class="title">Burgers</div>
+        <main class="main">
+            <!-- Бургер 1 -->
+            
+            <section class="main__product" id="hamburger">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product1.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">HAMBURGER <span class="main__product-many">27000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Yangi, qo'lda tayyorlangan pattilar panjaradan issiq va yumshoq, qovurilgan kunjut urug'i bulochka ustiga qo'yiladi. Istaganingizcha ko'proq to'ldirishni tanlang.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="cheeseBurger">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product2.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">CHEESEBURGER <span class="main__product-many">30000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Amerika uslubidagi pishloq yangi pattilar orasida eritilib, yumshoq, qovurilgan kunjut urug'i bo'lagiga qo'yiladi. Istaganingizcha ko'proq to'ldirishni tanlang.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="littleHamburger">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product3.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">LITTLE HAMBURGER <span class="main__product-many">23000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Yangi, qo'lda tayyorlangan patti panjaradan issiq. Istaganingizcha ko'proq qo'shing.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="littleCheeseBurger">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product4.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">LITTLE CHEESEBURGER <span class="main__product-many">25000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Yangi, qo'lda tayyorlangan patti amerikacha uslubdagi pishloq bilan panjaradan issiq. Istaganingizcha ko'proq qo'shing.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+        </main>
+        <div class="title">Hot Dogs</div>
+        <main class="main">
+            
+            <section class="main__product" id="kosherStyleHotDog">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product5.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">KOSHER STYLE HOT DOG <span class="main__product-many">16000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        O'zingiz yoqtirgan har qanday qo'shimchalar bilan karamelize qilingan tashqi ko'rinish uchun uzunasiga bo'lingan va panjara qilingan go'shtli hot-dog.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="cheeseDog">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product6.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">CHEESE DOG <span class="main__product-many">18000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Amerika uslubidagi pishloq yangi pattilar orasida eritilib, yumshoq, qovurilgan kunjut urug'i bo'lagiga qo'yiladi. Istaganingizcha ko'proq to'ldirishni tanlang.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+        </main>
+        <div class="title">Sandwiches</div>
+        <main class="main">
+            
+            <section class="main__product" id="grilledCheese">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product7.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">
+                            GRILLED CHEESE <span class="main__product-many">25000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        O'zingiz yoqtirgan har qanday qo'shimchalar bilan karamelize qilingan tashqi ko'rinish uchun uzunasiga bo'lingan va panjara qilingan go'shtli hot-dog.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="veggieSandwich">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product8.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">VEGGIE SANDWICH <span class="main__product-many">20000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Yangi pishirilgan piyoz, qo'ziqorin va yashil qalampir yumshoq, qovurilgan kunjut urug'i bo'lagida salat va pomidor bilan qoplangan. Yoki bulochkadan boshlang va o'zingizni noldan yarating. Sabzavotli burger emas.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="veggieSandwichWithCheese">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product9.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">VEGGIE SANDWICH WITH CHEESE <span class="main__product-many">22000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Yangi pishirilgan piyoz, qo'ziqorin va yashil qalampir yumshoq, qovurilgan kunjut urug'i bulochkasida salat, pomidor va amerikacha pishloq bo'laklari bilan qoplangan. Yoki bulochka va pishloq bilan boshlang va o'zingizni noldan yarating. Sabzavotli burger emas.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+
+        </main>
+        <div class="title">Fries</div>
+        <main class="main">
+            
+            <section class="main__product" id="littleFries">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product10.png" alt="" class="main__product-img">
+                        <h2 class="main__product-title">
+                            LITTLE FRIES <span class="main__product-many">15000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Sof, xolesterinsiz, 100% yeryong'oq yog'ida pishirilgan, yangi tayyorlangan taxta uslubidagi kartoshka. Ikki marta yangi va pishirilgan kesib oling - tashqi tomondan qattiq va ichki kartoshka pyuresi.O'zingiz yoqtirgan har qanday qo'shimchalar bilan karamelize qilingan tashqi ko'rinish uchun uzunasiga bo'lingan va panjara qilingan go'shtli hot-dog.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="regularFries">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product11.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">REGULAR FRIES <span class="main__product-many">17000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Sof, xolesterinsiz, 100% yeryong'oq yog'ida pishirilgan, yangi tayyorlangan taxta uslubidagi kartoshka. Ikki marta yangi va pishirilgan kesib oling - tashqi tomondan qattiq va ichki kartoshka pyuresi.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="largeFries">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product12.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">LARGE FRIES <span class="main__product-many">19000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Sof, xolesterinsiz, 100% yeryong'oq yog'ida pishirilgan, yangi tayyorlangan taxta uslubidagi kartoshka. Ikki marta yangi va pishirilgan kesib oling - tashqi tomondan qattiq va ichki kartoshka pyuresi.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>	
+            <section class="main__product" id="littleCajunFries">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product13.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">
+                            LITTLE CAJUN FRIES <span class="main__product-many">15000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Sof, xolesterinsiz, 100% yeryong'oq yog'ida pishirilgan, so'ngra og'ir dozada Kajun ziravorlari bilan yog'langan yangi tayyorlangan taxta uslubidagi kartoshka. Ikki marta yangi va pishirilgan kesib oling - tashqi tomondan qattiq va ichki kartoshka pyuresi.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="regularCajunFries">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product14.JPG" alt="" class="main__product-img">
+                        <h2 class="main__product-title">REGULAR CAJUN FRIES <span class="main__product-many">17000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Sof, xolesterinsiz, 100% yeryong'oq yog'ida pishirilgan, so'ngra og'ir dozada Kajun ziravorlari bilan yog'langan yangi tayyorlangan taxta uslubidagi kartoshka. Ikki marta yangi va pishirilgan kesib oling - tashqi tomondan qattiq va ichki kartoshka pyuresi.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+            <section class="main__product" id="largeCajunFries">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product15.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">LARGE CAJUN FRIES <span class="main__product-many">19000 сум</span>
+                        </h2>
+
+                    </div>
+                    <p class="main__product-descr">
+                        Sof, xolesterinsiz, 100% yeryong'oq yog'ida pishirilgan, so'ngra og'ir dozada Kajun ziravorlari bilan yog'langan yangi tayyorlangan taxta uslubidagi kartoshka. Ikki marta yangi va pishirilgan kesib oling - tashqi tomondan qattiq va ichki kartoshka pyuresi.
+                    </p>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+                <div class="main__product-extraProduct">
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="doubleMayonnaise">
+                        <span class="main__product-check"></span>
+                        Двойной майонез
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="lettuce">
+                        <span class="main__product-check"></span>
+                        Салатный лист
+                    </label>
+                    <label class="main__product-label">
+                        <!-- Дополнительный товар -->
+                        <input type="checkbox" class="main__product-checkbox" data-extra="cheese">
+                        <span class="main__product-check"></span>
+                        Сыр
+                    </label>
+                </div>
+                <div class="main__product-kcall"><span>0</span> калорий</div> <!-- Сумма колорий -->
+
+            </section>
+
+        </main>
+
+        <div class="title">DRINKS</div>
+        <main class="main">
+            <section class="main__product" id="cola500">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product16.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">
+                            COLA 0.5L <span class="main__product-many">5000 сум</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="fanta500">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product18.png" alt="" class="main__product-img">
+                        <h2 class="main__product-title">FANTA 0.5L <span class="main__product-many">5000 сум</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="sprite500">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product20.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">SPRITE 0.5L <span class="main__product-many">5000 сум</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="cola1500">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product17.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">
+                            COLA 1.5L <span class="main__product-many">10000 сум</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="fanta1500">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product19.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">FANTA 1.5L <span class="main__product-many">10000 сум</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="sprite1500">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/product21.png" alt="" class="main__product-img">
+                        <h2 class="main__product-title">SPRITE 1.5L <span class="main__product-many">10000 сум</span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="stakan">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/stakan.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">stakan <span class="main__product-many">4000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-1.jpeg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">FIVE GUYS MILKSHAKE <span class="main__product-many">10000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake2">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-2.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">WHIPPED CREAM <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake3">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-3.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">COFFEE <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake4">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-4.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">OREO CREME <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake5">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-5.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">OREO COOKIES <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake6">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-6.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">SALTED CARAMEL <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake7">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-7.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">PEANUT BUTTER <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake8">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-8.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">DOUBLE STUFF (OREO CREME & OREO COOKIE) <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake9">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-9.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">CHERRY <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+            <section class="main__product" id="milkshake10">
+                <div class="main__product-preview">
+                    <div class="main__product-info">
+                        <img src="images/milkshakes/product-10.jpg" alt="" class="main__product-img">
+                        <h2 class="main__product-title">BANANA <span class="main__product-many">13000 сум</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="main__product-extra">
+                    <div class="main__product-number">
+
+                        <!-- Прибавка к колличесву -->
+
+                        <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+                        <!-- Кнопка минус -->
+
+                        <output class="main__product-num">0</output>
+                        <!-- Колличество -->
+
+                        <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+                        <!-- Кнопка минус -->
+
+                    </div>
+                    <div class="main__product-price"><span>0</span> сум</div> <!-- Общая цена -->
+                </div>
+
+            </section>
+        </main>
+        <div class="button">
+            <!-- Кнопка заказа -->
+            <button class="addCart" type="reset">
+                <span class="fa-reg cart"></span> Заказать
+            </button>
+        </div>
+    </form>
+    <div class="receipt active">
+        <!-- Чек -->
+        <div class="receipt__window">
+            <h2 class="receipt__window-title">FOOD100 LVL</h2>
+
+            <!-- Вывод информации в чек  -->
+            <div class="receipt__window-out"></div>
+
+            <button class="receipt__window-btn">Оплатить</button> <!-- При нажатии страница обновляется -->
+        </div>
+    </div>
+
+    <div class="view">
+        <button class="view__close">
+            <span class="fa-reg close"></span>
+        </button>
+        <img src="images/product1.jpg" alt="">
+    </div>
+
+    <!-- 
+        ДЗ
+        При двойном нажатие (dblclick) на .main__product-info появляется блок блок .view при помощи добавление класса .active
+        У .main__product-info img берутся данные из атрибута src и вставляются в картинку в блоке .view при помощи функции setAttribute(название атрибута, что в него вставить)
+        И при нажатие на Х блок .view закрывается 
+    -->
+    <script src="script.js"></script>
+</body>
+
+</html>
